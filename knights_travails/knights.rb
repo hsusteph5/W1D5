@@ -10,4 +10,9 @@ class KnightPathFinder
     
   end
   
+  def self.valid_moves(pos)
+    array = []
+    [[1,2],[2,1],[-1,2],[2,-1],[1,-2],[-2,1],[-1,-2],[-2,-1]]
+    
+  end 
 end
